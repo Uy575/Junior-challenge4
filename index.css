@@ -1,0 +1,409 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top_overall{
+  background-image: url(./images/bg-hero-desktop.svg);
+  background-color: hsl(193, 100%, 96%);
+  padding: 0px 50px 0px 50px;
+}
+.navimg{
+    margin-top: 2rem;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.navbutton{
+    width: 150px;
+    height: 40px;
+    background-color:  white ;
+    opacity: 0.9;
+    margin-top: 2rem;
+    border: 1px solid white;
+    font-weight: bold;
+    border-radius: 30px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.navbutton:hover{
+    cursor: pointer;
+}
+.toppart{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0 2.5rem;
+}
+.toptext{
+    width: 400px;
+    align-self: center;
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+.topheading{
+    font-size: 2rem;
+}
+.toppera{
+ font-size: 0.8rem;
+ font-weight: 700;
+ opacity: 0.7;
+}
+.topbutton{
+    width: 200px;
+    height: 40px;
+    background-color:  hsl(322, 100%, 66%) ;
+    opacity: 0.9;
+    color: white;
+    border: 1px solid  hsl(322, 100%, 66%) ;
+    border-radius: 30px;
+    margin-top: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+}
+.topbutton{
+    cursor: pointer;
+}
+.toppic{
+    margin-top: 2rem;
+    height: 400px;
+    width: 600px;
+}
+.grow{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin: 100px 70px 10px 70px;
+    border: 2px solid white;
+    background-color: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 6px;
+}
+
+.grow_text{
+    width: 500px;
+    align-self: center;
+    padding-left: 100px;
+    font-family: 'Open Sans', sans-serif;
+    opacity: 0.6;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+.growpic{
+    padding: 20px 30px 20px 0px;
+    height: 300px;
+    width: 300px;
+}
+.flowing_conversation{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 70px 0px 70px;
+    border: 2px solid white;
+    background-color: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 6px;
+}
+
+.fc_text{
+    width: 500px;
+    align-self: center;
+    padding-right: 100px;
+    font-family: 'Open Sans', sans-serif;
+    opacity: 0.6;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+.fc_pic{
+    padding: 0px 20px 30px 20px;
+    height: 300px;
+    width: 300px;
+}
+.your_user{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin: 25px 70px 250px 70px;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.user_text{
+    width: 500px;
+    align-self: center;
+    padding-left: 100px;
+    font-family: 'Open Sans', sans-serif;
+    opacity: 0.6;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+.user_pic{
+    padding: 20px 30px 20px 0px;
+    height: 300px;
+    width: 300px;
+}
+footer{
+    background-color:hsl(192, 100%, 9%);
+    position: relative;
+    padding: 8rem 0 3rem ;
+    width: 100%;
+
+    
+
+}
+
+.foottext{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+.icons{
+    width: 300px;
+    align-self: center;
+
+}
+.icons > *+* , .fb{
+    margin-left: 15px;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 5px;
+}
+.list, .secondlist{
+    width: 100px;
+    align-self: center;
+}
+.detail{
+    width: 400px;
+    align-self: center;
+    padding-left: 5rem;
+    padding-top: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+    opacity: 0.7;
+}
+
+li{
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 15px;
+       opacity: 0.7;
+}
+.copyright{
+    color: white;
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: .8rem;
+    opacity: 0.7;
+}
+.footimage{
+    padding-left: 5rem;
+}
+.phone{
+    margin-top: 10px;
+}
+.email{
+    margin-top: 20px;   
+}
+.detail > span{
+    display: block;
+}
+
+.around{
+    height: 200px;
+    width: 500px;
+    border-radius: 6px;
+    position: absolute;
+    top: -40%;
+    left: 30%;
+    text-align: center;
+    margin: 5px ;
+    border: 2px solid white;
+    background-color: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+}
+.around > button {
+    margin-top: 1.5rem;
+    width: 300px;
+    height: 50px;
+    background-color:  hsl(322, 100%, 66%) ;
+    opacity: 0.9;
+    color: white;
+    border: 1px solid  hsl(322, 100%, 66%) ;
+    border-radius: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.around > button:hover{
+    cursor: pointer;
+}
+.aroundtext{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+     display: inline-block;
+     margin-top: 2.5rem;
+     opacity: 0.8;
+}
+h1,h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.location{
+    margin-top: -23px;
+    margin-left: 35px;
+}
+.email,.phone{
+    margin-left: 10px;
+
+}
+.fb:hover,.twi:hover,.insta:hover{
+    background-color: lightcoral;
+}
+@media(min-width:375px) and (max-width:720px){
+    .top_overall{
+        padding: 0px 0px;
+        background-image: url(./images/bg-hero-mobile.svg)
+    }
+    .toppart{
+        flex-direction: column;
+        text-align: center;
+    }
+    .toppic{
+        height: 200px;
+        width: 300px;
+    }
+    .toppera{
+     padding: 10px;
+    }
+
+    .grow{
+        flex-direction: column;
+   
+        height: auto;
+        margin: 100px 10px 10px 10px;
+        padding: 2rem 2rem;
+        align-items: center;
+
+    }
+    .grow_text{
+        padding-left: 0px;
+        width: 70%;
+    }
+    .flowing_conversation{
+        flex-direction: column;
+        padding: 2rem 2rem;
+        align-items: center;
+        margin: 10px 10px 10px 10px;
+        
+    }
+    .your_user{
+        flex-direction: column;
+        padding: 2rem 2rem;
+        align-items: center;
+        margin: 10px 10px 150px 10px;
+
+    }
+    .growpic{
+        height: 200px;
+        width: 200px;
+
+    }
+    .fc_pic{
+        height: 200px;
+        width: 200px;
+    
+    }
+    .user_pic{
+        height: 200px;
+        width: 200px;
+   
+    }
+    .fc_text{
+        padding-right: 0px;
+        width: 70%;
+        
+    }
+    .user_text{
+            padding-left: 0px;
+            width: 70%;
+        
+    }
+    .fc_text > h2{
+
+        font-size: 1rem;
+    }
+    .foottext{
+        flex-direction: column;
+    }
+ 
+    .copyright{
+        bottom: 2%;
+        right: 10%;
+    }
+    .icons{
+        width: auto;
+    }
+    .list, .secondlist {
+        margin-left: 2rem;
+        align-self: flex-start;
+    }
+    .detail {
+
+        padding-left: 3rem;
+     
+    }
+    .footimage{
+        margin-left: -3rem;
+    }
+    .around{
+        height: 170px;
+        width: 270px;
+        top: -14%;
+        left: 13%;
+    }
+    .around > button{
+        width: 250px;
+        margin-top: 0.5rem;
+    }
+    .aroundtext{
+        margin-top: 1.5rem;
+    }
+    .navimg{
+ 
+        width: 35%;
+    }
+    .nav{
+        padding: 0px 20px 0px;
+    }
+    
+}
+@media  (min-width:768px) and (max-width:1080px){
+    .top_overall{
+        padding: 0px 0px;
+        background-image: url(./images/bg-hero-mobile.svg)
+    }
+    .toppart{
+        flex-direction: column;
+        text-align: center;
+    }
+    .toppic{
+        height: 200px;
+        width: 300px;
+    }
+    .toppera{
+     padding: 10px;
+    }
+    .around{
+
+
+        left: 20%;
+    }
+}
+
